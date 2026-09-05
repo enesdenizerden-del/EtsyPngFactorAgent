@@ -27,8 +27,7 @@ jobs:
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
       - name: Unpack project
-        run: unzip -o EtsyPngFactoryAgent_v0.3_source.zip
-      
+        run: unzip -o EtsyPngFactoryAgent_v0.3_source_FOR_v0.6.zip
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
